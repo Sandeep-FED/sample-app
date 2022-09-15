@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.12/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.12",
+  "id": "309ec148-4e08-4ef3-88f1-69c317b82123",
+  "version": "{{VERSION}}",
+  "packageName": "{{PACKAGE_NAME}}",
+  "developer": {
+    "name": "Quadra",
+    "websiteUrl": "https://casgdemo.azurewebsites.net",
+    "privacyUrl": "https://casgdemo.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://casgdemo.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "New folder  2 ",
+    "full": "New folder  2 "
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "0267de48-c5ba-4a8b-99d0-4eb722e434c3",
+      "name": "form",
+      "contentUrl": "https://casgdemo.azurewebsites.net/formTab/",
+      "scopes": ["personal"]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": ["casgdemo.azurewebsites.net"],
+  "showLoadingIndicator": false
+}
